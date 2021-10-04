@@ -58,37 +58,36 @@ import TextPartVue from "./TextPartVue.vue";
 
 <style scoped lang="sass">
 .section
+  display: flex
+  .section-container
+    width: 50%
+    height: 85vh
+  .container-left
     display: flex
-    .section-container
-        width: 50%
-        height: 85vh
-    .container-left
-        display: flex
-        justify-content: center
-        align-items: center
-        flex-direction: column
-        padding-right: 110px
-        .photo-1
-            width: 400px
-        .section-text-part
-            font-size: 4rem
-            font-weight: 200
-        .last-part
-            margin-right: 12px
-        .section-container-content-list
-            list-style-type: none
-            margin: 0
-            padding: 0
-            .list-li
-                color: #264653
-                font-size: 1.2rem
-                margin-left: 20px
-                .section-list-part
-                    margin-left: 20px
-    .container-right
-        display: flex
-        justify-content: right
-        align-items: center
-        .photo-2
-            height: 650px
+    justify-content: center
+    align-items: center
+    flex-direction: column
+    .photo-1
+      width: 500px
+    .section-text-part
+      font-size: 5rem
+      font-weight: 200
+      .last-part
+        margin-right: 12px
+    .section-container-content-list
+      list-style-type: none
+      margin: 0
+      padding: 0
+      .list-li
+        color: #264653
+        font-size: 1.2rem
+        margin-left: 20px
+        .section-list-part
+          margin-left: 20px
+  .container-right
+    display: flex
+    justify-content: right
+    align-items: center
+    .photo-2
+      height: 680px
 </style>
