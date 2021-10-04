@@ -7,11 +7,10 @@
     <ul class="nav-menu">
       <li class="nav-menu-li">Blog</li>
       <li class="nav-menu-li">Contact</li>
-      <li class="nav-menu-li">Sign up/Sign in</li>
+      <li class="nav-menu-li">About us</li>
     </ul>
   </div>
 </template>
-
 <script setup>
 import TextPartVue from "./TextPartVue.vue";
 </script>

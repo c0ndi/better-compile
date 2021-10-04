@@ -67,10 +67,11 @@ import TextPartVue from "./TextPartVue.vue";
         justify-content: center
         align-items: center
         flex-direction: column
+        padding-right: 110px
         .photo-1
-            width: 500px
+            width: 400px
         .section-text-part
-            font-size: 5rem
+            font-size: 4rem
             font-weight: 200
         .last-part
             margin-right: 12px
@@ -89,5 +90,5 @@ import TextPartVue from "./TextPartVue.vue";
         justify-content: right
         align-items: center
         .photo-2
-            height: 680px
+            height: 650px
 </style>

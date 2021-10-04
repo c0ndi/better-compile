@@ -1,6 +1,7 @@
 <template>
   <Navbar />
   <FirstSection />
+  <SecondSection />
 </template>
 <script setup>
 import Navbar from "./components/Navbar.vue";

@@ -6,6 +6,5 @@
 defineProps({
   msg: String,
   color: String,
-  fontWeight: String,
 });
 </script>
