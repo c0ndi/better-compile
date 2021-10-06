@@ -24,11 +24,12 @@
 
 <style scoped lang="sass">
 .footer
-    height: 20vh
-    background: #2D2D2D
-    display: flex
-    justify-content: center
-    color: white
-    &-list
-        list-style-type: none
+  margin-top: 150px
+  height: 20vh
+  background: #2D2D2D
+  display: flex
+  justify-content: center
+  color: white
+  &-list
+    list-style-type: none
 </style>

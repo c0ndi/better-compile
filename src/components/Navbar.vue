@@ -1,8 +1,8 @@
 <template>
   <div class="nav">
     <div class="nav-header">
-      <TextPartVue color="#F5145B" msg="better" class="bold nav-text-part" />
-      <TextPartVue color="#264653" msg="compile" class="thin nav-text-part" />
+      <text-part-vue color="#F5145B" msg="better" class="bold nav-text-part" />
+      <text-part-vue color="#264653" msg="compile" class="thin nav-text-part" />
     </div>
     <ul class="nav-menu">
       <li class="nav-menu-li">Blog</li>

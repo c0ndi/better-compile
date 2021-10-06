@@ -3,41 +3,41 @@
     <div class="section-container container-left">
       <img src="../assets/photo-4.svg" class="photo-1" />
       <div class="section-container-content">
-        <TextPartVue color="#264653" msg="5" class="section-text-part" />
-        <TextPartVue color="#F5145B" msg="times" class="section-text-part" />
-        <TextPartVue
+        <text-part-vue color="#264653" msg="5" class="section-text-part" />
+        <text-part-vue color="#F5145B" msg="times" class="section-text-part" />
+        <text-part-vue
           color="#264653"
           msg="faster"
           class="section-text-part last-part"
         />
         <ul class="section-container-content-list">
           <li class="list-li">
-            <TextPartVue color="#F5145B" msg="-" class="section-list-part" />
-            <TextPartVue
+            <text-part-vue color="#F5145B" msg="-" class="section-list-part" />
+            <text-part-vue
               color="#264653"
               msg="AMD CPU 5.3Ghz 16 cores"
               class="section-list-part"
             />
           </li>
           <li class="list-li">
-            <TextPartVue color="#F5145B" msg="-" class="section-list-part" />
-            <TextPartVue
+            <text-part-vue color="#F5145B" msg="-" class="section-list-part" />
+            <text-part-vue
               color="#264653"
               msg="NVIDIA RTX 2080ti 12GBVRAM"
               class="section-list-part"
             />
           </li>
           <li class="list-li">
-            <TextPartVue color="#F5145B" msg="-" class="section-list-part" />
-            <TextPartVue
+            <text-part-vue color="#F5145B" msg="-" class="section-list-part" />
+            <text-part-vue
               color="#264653"
               msg="1TB NVME STORAGE"
               class="section-list-part"
             />
           </li>
           <li class="list-li">
-            <TextPartVue color="#F5145B" msg="-" class="section-list-part" />
-            <TextPartVue
+            <text-part-vue color="#F5145B" msg="-" class="section-list-part" />
+            <text-part-vue
               color="#264653"
               msg="16GB RAM DDR5"
               class="section-list-part"
@@ -59,6 +59,7 @@ import TextPartVue from "./TextPartVue.vue";
 <style scoped lang="sass">
 .section
   display: flex
+  scroll-snap-type: x mandatory
   .section-container
     width: 50%
     height: 85vh
@@ -68,7 +69,7 @@ import TextPartVue from "./TextPartVue.vue";
     align-items: center
     flex-direction: column
     .photo-1
-      width: 500px
+      width: 50%
     .section-text-part
       font-size: 5rem
       font-weight: 200
@@ -89,5 +90,5 @@ import TextPartVue from "./TextPartVue.vue";
     justify-content: right
     align-items: center
     .photo-2
-      height: 680px
+      height: 80%
 </style>
