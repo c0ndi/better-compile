@@ -1,7 +1,7 @@
 <template>
   <div class="section">
     <div class="section-container-row">
-      <img src="../assets/photo-7.png" />
+      <img src="../assets/photo-8.png" />
       <div class="section-container-row-text-box">
         <div class="row-parts">
           <text-part-vue color="#264653" msg="we " class="thin text-part-vue" />
@@ -61,16 +61,15 @@ import TextPartVue from "./TextPartVue.vue";
 <style scoped lang="sass">
 .section
   display: flex
-  height: 80vh
-  flex-direction: row
+  flex-direction: column
+  height: 100vh
   .section-container-row
     display: flex
-    flex-direction: column
-    justify-content: space-around
-    align-content: center
-    width: 50%
+    justify-content: space-evenly
+    align-items: center
+    height: 50%
     .section-container-row-text-box
-      padding: 0 300px
+      width: 20%
       .row-parts
         padding: 20px 0
         .text-part-vue
@@ -79,6 +78,8 @@ import TextPartVue from "./TextPartVue.vue";
           font-weight: 600
         .thin
           font-weight: 400
+      .row-text
+        color: #264653
     img
       width: 450px
       height: 250px

@@ -59,7 +59,6 @@ import TextPartVue from "./TextPartVue.vue";
 <style scoped lang="sass">
 .section
   display: flex
-  scroll-snap-type: x mandatory
   .section-container
     width: 50%
     height: 85vh
