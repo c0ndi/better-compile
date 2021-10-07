@@ -24,7 +24,7 @@
 
 <style scoped lang="sass">
 .footer
-  height: 40vh
+  height: 25vh
   background: #2D2D2D
   display: flex
   justify-content: center

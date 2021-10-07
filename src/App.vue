@@ -1,13 +1,15 @@
 <template>
   <navbar class="snap" />
-  <first-section class="snap" />
+  <first-section />
   <second-section class="snap" />
-  <Footer class="snap" />
+  <third-section class="snap" />
+  <Footer />
 </template>
 <script setup>
 import Navbar from "./components/Navbar.vue";
 import FirstSection from "./components/FirstSection.vue";
 import SecondSection from "./components/SecondSection.vue";
+import ThirdSection from "./components/ThirdSection.vue";
 import Footer from "./components/Footer.vue";
 </script>
 
