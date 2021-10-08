@@ -3,7 +3,7 @@
   <first-section />
   <second-section class="snap" />
   <third-section class="snap" />
-  <Footer />
+  <Footer class="snap" />
 </template>
 <script setup>
 import Navbar from "./components/Navbar.vue";
