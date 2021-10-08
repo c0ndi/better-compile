@@ -2,7 +2,7 @@
   <navbar class="snap" />
   <first-section />
   <second-section class="snap" />
-  <third-section class="snap" />
+  <third-section class="snap" />-->
   <Footer class="snap" />
 </template>
 <script setup>

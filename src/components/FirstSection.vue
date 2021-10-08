@@ -5,19 +5,11 @@
       <div class="section-container-content">
         <text-part-vue color="#264653" msg="5" class="section-text-part" />
         <text-part-vue color="#F5145B" msg="times" class="section-text-part" />
-        <text-part-vue
-          color="#264653"
-          msg="faster"
-          class="section-text-part last-part"
-        />
+        <text-part-vue color="#264653" msg="faster" class="section-text-part last-part" />
         <ul class="section-container-content-list">
           <li class="list-li">
             <text-part-vue color="#F5145B" msg="-" class="section-list-part" />
-            <text-part-vue
-              color="#264653"
-              msg="AMD CPU 5.3Ghz 16 cores"
-              class="section-list-part"
-            />
+            <text-part-vue color="#264653" msg="AMD CPU 5.3Ghz 16 cores" class="section-list-part" />
           </li>
           <li class="list-li">
             <text-part-vue color="#F5145B" msg="-" class="section-list-part" />
@@ -29,19 +21,11 @@
           </li>
           <li class="list-li">
             <text-part-vue color="#F5145B" msg="-" class="section-list-part" />
-            <text-part-vue
-              color="#264653"
-              msg="1TB NVME STORAGE"
-              class="section-list-part"
-            />
+            <text-part-vue color="#264653" msg="1TB NVME STORAGE" class="section-list-part" />
           </li>
           <li class="list-li">
             <text-part-vue color="#F5145B" msg="-" class="section-list-part" />
-            <text-part-vue
-              color="#264653"
-              msg="16GB RAM DDR5"
-              class="section-list-part"
-            />
+            <text-part-vue color="#264653" msg="16GB RAM DDR5" class="section-list-part" />
           </li>
         </ul>
       </div>
@@ -70,7 +54,7 @@ import TextPartVue from "./TextPartVue.vue";
     .photo-1
       width: 50%
     .section-text-part
-      font-size: 5rem
+      font-size: 4vw
       font-weight: 200
       .last-part
         margin-right: 12px
@@ -89,5 +73,5 @@ import TextPartVue from "./TextPartVue.vue";
     justify-content: right
     align-items: center
     .photo-2
-      height: 80%
+      width: 70%
 </style>

@@ -29,9 +29,9 @@
   background: #2D2D2D
   display: flex
   justify-content: center
-  align-items: center
   color: white
   &-list
+    margin-top: 50px
     list-style-type: none
     &-li-header
       font-size: 1.5rem

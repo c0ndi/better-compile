@@ -15,6 +15,7 @@
 import TextPartVue from "./TextPartVue.vue";
 </script>
 <style scoped lang="sass">
+@import '../../public/styles/media.sass'
 .nav
   height: 15vh
   display: flex
