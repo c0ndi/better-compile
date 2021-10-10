@@ -15,14 +15,14 @@
 import TextPartVue from "./TextPartVue.vue";
 </script>
 <style scoped lang="sass">
-@import '../../public/styles/media.sass'
 .nav
   height: 15vh
   display: flex
   flex-direction: row
   justify-content: space-between
   align-items: center
-  padding: 0 220px
+  flex-wrap: wrap
+  padding: 0 200px
   .nav-text-part
     font-size: 1.8rem
   .bold
