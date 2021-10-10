@@ -2,14 +2,22 @@
 ## _Vue powered by Vite project ✨_
 
 
-### Tech stack 🔧🧰: 
+### Tech stack: 
 - Vue
 - Sass
 - Figma
 
-### Design 🧧:
+### Design:
 <hr>
-<div style="display: grid; place-items: center;">
-    <img src="src/assets/Design.png" width="350" style="">
-</div>
+<img src="src/assets/Design.png" width="350" style="">
 <hr>
+
+### Hosted on:
+```sh
+ 127.0.0.1:8000
+```
+
+### Recommended IDE Setup 
+- VSCode + Volar 
+
+### Authors: c0ndi
