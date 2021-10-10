@@ -26,7 +26,7 @@
                 </div>
             </div>
             <div class="section-container-column right">
-                <img src="../assets/Apple logo.png" class="photo-cpu" />
+                <img src="../assets/Applelogo.png" class="photo-cpu" />
             </div>
         </div>
         <!-- Row -->

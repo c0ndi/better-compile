@@ -12,11 +12,6 @@
 <img src="src/assets/Design.png" width="100%" style="">
 <hr>
 
-### Hosted on:
-```sh
- 127.0.0.1:8000
-```
-
 ### Recommended IDE Setup 
 - VSCode + Volar 
 
