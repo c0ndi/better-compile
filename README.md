@@ -9,7 +9,7 @@
 
 ### Design:
 <hr>
-<img src="src/assets/Design.png" width="350" style="">
+<img src="src/assets/Design.png" width="500" style="">
 <hr>
 
 ### Hosted on:
