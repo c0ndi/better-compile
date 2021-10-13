@@ -1,7 +1,7 @@
 # better-compile 
 ## _Vue powered by Vite project ✨_
 
-
+### Currently working on media quieres.. 
 ### Tech stack: 
 - Vue
 - Sass
