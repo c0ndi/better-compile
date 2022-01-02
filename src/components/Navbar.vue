@@ -6,7 +6,7 @@
     </div>
     <ul class="nav-menu">
       <li class="nav-menu-li">Blog</li>
-      <li class="nav-menu-li">Contact</li>
+      <li class="nav-menu-li">Kontakt</li>
       <li class="nav-menu-li">About us</li>
     </ul>
   </div>
